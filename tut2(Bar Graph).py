@@ -7,16 +7,16 @@ names = list(student.keys())
 values = list(student.values())
 
 #  simple bar plot
-# plt.bar(names,values)
-# plt.show()
+plt.bar(names,values)
+plt.show()
 
 # bar plot with title and labels
 
-# plt.bar(names,values)
-# plt.title("Bar Plot")
-# plt.xlabel("Names")
-# plt.ylabel("Marks")
-# plt.show()
+plt.bar(names,values)
+plt.title("Bar Plot")
+plt.xlabel("Names")
+plt.ylabel("Marks")
+plt.show()
 
 #  Horizontal Bar plot
 
