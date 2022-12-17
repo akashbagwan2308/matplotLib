@@ -6,28 +6,29 @@ y = [9,8,7,6,5,4,3,2,1]
 z = [1,2,3,4,5,6,7,8,9]
 
 # simple scatter plot
-# plt.scatter(x,y)
-# plt.show()
+plt.scatter(x,y)
+plt.show()
 
 # plot with extra parameters
-# plt.scatter(x,y,marker="*",c="red",s=100)
-# # plt.bar(x,y)
-# # plt.plot(x,y,color ="pink")
-# plt.title("Scatter Plot")
-# plt.xlabel("X-axis")
-# plt.ylabel("Y-axis")plt.grid(True)
-# plt.show()
+plt.scatter(x,y,marker="*",c="red",s=100)
+# plt.bar(x,y)
+# plt.plot(x,y,color ="pink")
+plt.title("Scatter Plot")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.grid(True)
+plt.show()
 
 # some extra
-# plt.scatter(x,y,marker="*",c="red",s=100)
-# plt.scatter(x,z,marker=".",c="black",s=100)
-# # plt.bar(x,z)
-# # plt.plot(x,y,color ="pink")
-# plt.title("Scatter Plot")
-# plt.xlabel("X-axis")
-# plt.ylabel("Y-axis")
-# plt.grid(True)
-# plt.show()
+plt.scatter(x,y,marker="*",c="red",s=100)
+plt.scatter(x,z,marker=".",c="black",s=100)
+# plt.bar(x,z)
+# plt.plot(x,y,color ="pink")
+plt.title("Scatter Plot")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.grid(True)
+plt.show()
 
 # subplots
 plt.subplot(1,2,1)
