@@ -8,9 +8,18 @@ plt.hist(data)
 plt.show()
 
 # histogram with labels
-plt.hist(data)
+plt.hist(data,color='r')
 plt.title("Histogram")
 plt.ylabel("frequency")
 plt.xlabel("Data")
 # plt.grid()
 plt.show()
+
+# ###Working with datasets
+# import pandas as pd
+# iris = pd.read_csv('iris.csv')
+# iris.head()
+#
+# plt.hist(iris['Petal.Length'],bins=50,color='yellow')
+# plt.show()
+
